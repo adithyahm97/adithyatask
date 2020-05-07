@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Adithya task</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <script src="jquerry.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form name="demo" onsubmit="return validateFormOnSubmit(this)" action="" class="form" method="POST" data-netlify="true">
+            <h1>Form</h1>
+            <div class="details">
+                <div class="inputfield">
+                    <label for="title">Title</label>
+                    <select name="title" class="title">
+                        <option value="title" selected disabled></option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Ms">Ms</option>
+                    </select>
+                </div>
+                <div class="inputfield">
+                    <label for="username">Name</label></td>
+                    <input name="username"  type="text">
+                </div>
+                <div class="inputfield">
+                    <label for="email">Email</label>
+                    <input name="email"  type="text">
+                </div>
+                <div class="inputfield">
+                    <label for="pwd">Password</label>
+                    <input name="pwd" type="password">
+                </div>
+                <div class="inputfield">
+                    <label for="phone">Contact number</label>
+                    <input name="phone"  type="text">
+                </div>
+                <div class="inputfield">
+                    <label for="from">Address</label>
+                    <textarea name="from" id="address"></textarea>
+                </div>
+                <!--<div class="inputfield">
+                    <input name="Submit" value="Submit" type="submit" class="btn">
+                </div>-->
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
